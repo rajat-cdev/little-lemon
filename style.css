@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edefee;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    align-self: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+}
+
+.topnav a.active {
+    background-color: #dbfd00;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+#banner {
+    background: #ffee01;
+    height: auto;
+    border-radius: 30px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h3 {
+    color: white;
+    font-family: Arial;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.bannerText {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    text-align: center;
+}
+
+a#bannerButton {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 10px;
+    color: rgb(165, 160, 13);
+    background-color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a#bannerButton:hover {
+    background-color: black;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+  
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.food { 
+    width: 100%; display: inline-block; 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+a#cardButton {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 216, 1);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a#cardButton:hover {
+    background-color: black;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 50px;
+}
+footer div {
+    flex: 1;
+}
+.copyright {
+    text-align: right;
+    font-size: 0.9rem;
+    text-decoration: overline;
+}
